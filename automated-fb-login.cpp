@@ -50,9 +50,9 @@ int main()
      Sleep(200);   sendKeyDown(65); sendKeyUp(65);
      Sleep(200);   sendKeyDown(82); sendKeyUp(82);
      /* '@' */     
-	 Sleep(200);   sendKeyDown(VK_SHIFT); sendKeyDown(0x32); sendKeyUp(0x32); sendKeyUp(VK_SHIFT);
+     Sleep(200);   sendKeyDown(VK_SHIFT); sendKeyDown(0x32); sendKeyUp(0x32); sendKeyUp(VK_SHIFT);
      /* rediffmail */     
-	 Sleep(200);   sendKeyDown(82); sendKeyUp(82);
+     Sleep(200);   sendKeyDown(82); sendKeyUp(82);
      Sleep(200);   sendKeyDown(69); sendKeyUp(69);
      Sleep(200);   sendKeyDown(68); sendKeyUp(68);
      Sleep(200);   sendKeyDown(73); sendKeyUp(73);
@@ -85,7 +85,7 @@ int main()
      Sleep(200);   sendKeyDown(71); sendKeyUp(71);  // 71 - g
      
 	 /* Clicking on Log In button */
-	   SetCursorPos(1137,105); 
+     SetCursorPos(1137,105); 
      mouse_event(MOUSEEVENTF_LEFTDOWN,x,y,35,70);
      mouse_event(MOUSEEVENTF_LEFTUP,x,y,0,0);
      
