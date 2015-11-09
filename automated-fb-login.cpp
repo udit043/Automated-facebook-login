@@ -72,7 +72,7 @@ int main()
      mouse_event(MOUSEEVENTF_LEFTDOWN,x,y,35,70);
      mouse_event(MOUSEEVENTF_LEFTUP,x,y,0,0);
      
-	 /* Your password */  ( if password is 'abcd98utwg' )
+     /* Your password */  ( if password is 'abcd98utwg' )
      Sleep(200);   sendKeyDown(65); sendKeyUp(65);  // 65 - a
      Sleep(200);   sendKeyDown(66); sendKeyUp(66);  // 66 - b
      Sleep(200);   sendKeyDown(67); sendKeyUp(67);  // 67 - c
@@ -84,7 +84,7 @@ int main()
      Sleep(200);   sendKeyDown(87); sendKeyUp(87);  // 87 - w
      Sleep(200);   sendKeyDown(71); sendKeyUp(71);  // 71 - g
      
-	 /* Clicking on Log In button */
+     /* Clicking on Log In button */
      SetCursorPos(1137,105); 
      mouse_event(MOUSEEVENTF_LEFTDOWN,x,y,35,70);
      mouse_event(MOUSEEVENTF_LEFTUP,x,y,0,0);
